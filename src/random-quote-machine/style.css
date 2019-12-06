@@ -1,0 +1,39 @@
+#container-fluid{
+    height: 100vh;
+   }
+  #quote-box {
+    margin-top: 35vh;
+  }
+  #quote-box #tweet{
+    border: 1px, black, solid;
+    border-radius: 5px;
+  }
+  #text {
+    font-size: 2em
+  }
+  #tweet-quote {
+    color: white;
+  }
+  
+  .orange {
+    background-color: orange;
+    color: white;
+  }
+  .green {
+    background-color: green;
+    color: white;
+  }
+  .blue {
+    background-color: blue;
+    color: white;
+  }
+  
+  .text-orange {
+    color: orange;
+  }
+  .text-green {
+    color: green;
+  }
+  .text-blue {
+    color: blue;
+  }

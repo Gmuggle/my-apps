@@ -1,0 +1,147 @@
+html {
+    font-size: 10px;
+    font-family: monospace, sans-serif;
+    background-color: #D6D5D5;
+}
+header, main {
+    font-size: 2em;
+}
+header {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background-color: #D6D5D5;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+figure {
+    flex-grow: 1;
+}
+nav {
+    flex-grow: 1;
+    height: 100%;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+nav li {
+    flex-grow: 1;
+}
+
+@media (max-width: 850px) {
+    #header { 
+        flex-direction: column; 
+    }
+}
+@media (max-width: 800px) {
+
+    nav ul {
+        flex-direction: column;
+    }
+    #feature img {
+        display: none;
+    }
+    #price {
+        flex-direction: column;
+    }
+    #price section {
+        margin: 0.5em;
+    }
+}
+nav a {
+    outline: none;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    line-height: 2;
+}
+nav a:link, nav  a:visited {
+    background-color: #D6D5D5;
+}
+nav a:focus, nav a:hover {
+    background-color: #C9C9C9;
+}
+nav a:active {
+    background-color: black;
+    color: white;
+}
+h1 {
+    margin-top: 6em;
+    text-align: center;
+}
+form {
+    text-align: center;
+}
+form #submit {
+    display: inline-block;
+    width: 10em;
+    line-height: 3;
+    border-radius: 5px;
+    background-color: orange;
+}
+form #email {
+    width: 30em;
+    line-height: 3;
+}
+#feature, #product-video, #price {
+    margin-top: 5em;
+    text-align: center;
+    position: relative;
+}
+
+#feature section {
+    margin: 1.5em 20%;
+    display: flex;
+
+}
+#feature div {
+    text-align: left;
+    margin-left: 5%;
+}
+#product-video {
+    padding: 0.5em 20%;
+}
+#product-video p{
+    font-size: 0.8em;
+}
+#price {
+    margin: 3em 20%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#price h3 {
+    margin-top: 0;
+    background-color: #C9C9C9;
+}
+#price section {
+    border: 0.1em black dashed;
+    padding: 1em;
+    margin: 0.5em;
+}
+#price ul {
+    list-style-type: none;
+}
+#price button {
+    width: 8em;
+    line-height: 3;
+    border-radius: 5px;
+    background-color: orange;
+}
+footer {
+    background-color: #C9C9C9;
+    text-align: right;
+    font-size: 1.5em;
+}
+footer ul {
+    list-style-type: none;
+}
+footer li {
+    display: inline;
+}

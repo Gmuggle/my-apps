@@ -1,0 +1,67 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+#app-container{
+  height: 100vh;
+ }
+#quote-box {
+  margin-top: 30vh;
+}
+#quote-box #tweet{
+  border: 1px, black, solid;
+  border-radius: 5px;
+}
+#text {
+  font-size: 2em;
+  text-align: center;
+}
+#tweet-quote {
+  color: black;
+}
+#new-quote {
+  display: inline-block;
+  width: 100%;
+}
+
+.one {
+  background-color: #F451A3;
+  color: black;
+}
+.two {
+  background-color: #8383F6;
+  color: black;
+}
+.three {
+  background-color: #4CE0E0;
+  color: black;
+}
+
+.text-one {
+  color: #F451A3;
+}
+.text-two {
+  color: #8383F6;
+}
+.text-three {
+  color: #4CE0E0;
+}
