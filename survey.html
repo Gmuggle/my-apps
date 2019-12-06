@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <header>
+        <meta charset="utf-8">
+        <title>A Survey Form</title>
+        <link href="static-page-styles/survey.css" rel="stylesheet" type="text/css">
+    </header>
+    <body>
+        <main>
+            <form id="survey-form" action="#" methd="post">
+              <h1 id="title">Survey Form</h1>
+              <p id="description">Let us know how we can improve our software.Please note that required fields are followed by <abbr title="required">*</abbr>.</p>
+              
+              <section id="required-widget">
+                <p>
+                    <label id="name-label" for="name">Name:<abbr title="required">*</abbr></label>
+                    <input id="name" type="text" name="user-name" placeholder="your name" required>
+                </p>
+                <p>
+                    <label id="email-label" for="email">Email:<abbr title="required">*</abbr></label>
+                    <input id="email" type="email" name="user-email" placeholder="somebody@example.com" required>
+                </p>
+                <p>
+                    <label id="number-label" for="number">Age:<abbr title="required">*</abbr></label>
+                    <input id="number" type="number" name="age" min="6" max="100" step="1" placeholder="how old are you?" required>
+                </p>
+                <p>
+                    <label for="dropdown">Which option best describes your current role?</label>
+                <select id="dropdown" name="role" >
+                    <option>Students</option>
+                    <option>Full time job</option>
+                    <option>Other</option>
+                </select>
+                </p>
+              </section>
+              
+              <section id="check-widget">
+                <div id="enjoyment">
+                  <fieldset >
+                    <legend>How likely is that you would recommend our software to your friends?</legend>
+                    <h2>How likely is that you would recommend our software to your friends?</h2>
+                    <ul>
+                      <li>
+                            
+                            <input id="definitely" type="radio" name="recommend" value="definitely">
+                            <label for="definitely">Definitely</label>
+                      </li>
+                      <li>
+                            
+                            <input id="maybe" type="radio" name="recommend" value="maybe">
+                            <label for="maybe">Maybe</label>
+                      </li>
+                      <li>
+                            
+                            <input id="not-sure" type="radio" name="recommend" value="not-sure">
+                            <label for="not-sure">Not sure</label>
+                      </li>
+                    </ul>
+                  </fieldset>
+                </div>
+                  <div id="improvement">
+                    <fieldset >
+                      <legend>Things that should be improve in the future:</legend>
+                      <h2>Things that should be improve in the future:</h2>
+                      <ul>
+                        <li>
+                            
+                            <input id="resource" type="checkbox" name="resource" value="resource-usage">
+                            <label for="resource">resource usage</label>
+                        </li>
+                        <li>
+                            
+                            <input id="speed" type="checkbox" name="speed" value="speed">
+                            <label for="speed">running speed</label>
+                        </li>
+                        <li>
+                            
+                            <input id="appearance" type="checkbox" name="appearance" value="appearance">
+                            <label for="appearance">appearance</label>
+                        </li>
+                        <li>
+                            
+                            <input id="extension" type="checkbox" name="extension" value="extension">
+                            <label for="extension">function extension</label>
+                        </li>
+                        <li>
+                            
+                            <input id="compatibility" type="checkbox" name="compatibility" value="compatibility">
+                            <label for="compatibility">compatibility</label>
+                        </li>
+                      </ul>
+                    </fieldset>
+                  </div>
+                </section>
+              <section>
+                <div id="comment-widget">
+                    <p id="last">
+                        <label for="comment" class="comment">Any comments or suggestions?</label>
+                        <textarea id="comment" cols="30" rows="5">
+                        </textarea>
+                    </p>
+                </div>
+                <p id="submit-button">
+                  <button id="submit" type="submit">
+                        <strong>Submit</strong>
+                  </button>
+                </p>
+              </section>
+            </form>
+        </main>
+    </body>
+</html>

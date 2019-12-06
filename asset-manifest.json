@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/my-apps/static/css/main.6a26e7dc.chunk.css",
+    "main.js": "/my-apps/static/js/main.66e687a9.chunk.js",
+    "main.js.map": "/my-apps/static/js/main.66e687a9.chunk.js.map",
+    "runtime-main.js": "/my-apps/static/js/runtime-main.fdf9e119.js",
+    "runtime-main.js.map": "/my-apps/static/js/runtime-main.fdf9e119.js.map",
+    "static/css/2.9b33c5fc.chunk.css": "/my-apps/static/css/2.9b33c5fc.chunk.css",
+    "static/js/2.a4706af6.chunk.js": "/my-apps/static/js/2.a4706af6.chunk.js",
+    "static/js/2.a4706af6.chunk.js.map": "/my-apps/static/js/2.a4706af6.chunk.js.map",
+    "index.html": "/my-apps/index.html",
+    "precache-manifest.f3e0d1444d4a9212ac9784b7e8ebfaac.js": "/my-apps/precache-manifest.f3e0d1444d4a9212ac9784b7e8ebfaac.js",
+    "service-worker.js": "/my-apps/service-worker.js",
+    "static/css/2.9b33c5fc.chunk.css.map": "/my-apps/static/css/2.9b33c5fc.chunk.css.map",
+    "static/css/main.6a26e7dc.chunk.css.map": "/my-apps/static/css/main.6a26e7dc.chunk.css.map",
+    "static/media/calculator.PNG": "/my-apps/static/media/calculator.c739867e.PNG",
+    "static/media/documentation.PNG": "/my-apps/static/media/documentation.2cfdb925.PNG",
+    "static/media/drum-machine.PNG": "/my-apps/static/media/drum-machine.f7bf4dae.PNG",
+    "static/media/font-awesome.min.css": "/my-apps/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/bootstrap.min.css": "/my-apps/static/media/glyphicons-halflings-regular.fa277232.woff",
+    "static/media/markdown-previewer.PNG": "/my-apps/static/media/markdown-previewer.7846ccf9.PNG",
+    "static/media/pomodoro-clock.PNG": "/my-apps/static/media/pomodoro-clock.295db8cc.PNG",
+    "static/media/product-landing-page.PNG": "/my-apps/static/media/product-landing-page.65e16f74.PNG",
+    "static/media/random-quote.PNG": "/my-apps/static/media/random-quote.d9a1fadb.PNG",
+    "static/media/survey-from.PNG": "/my-apps/static/media/survey-from.3c92e09d.PNG",
+    "static/media/tributePage.PNG": "/my-apps/static/media/tributePage.c9407a3b.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fdf9e119.js",
+    "static/css/2.9b33c5fc.chunk.css",
+    "static/js/2.a4706af6.chunk.js",
+    "static/css/main.6a26e7dc.chunk.css",
+    "static/js/main.66e687a9.chunk.js"
+  ]
+}

@@ -1,0 +1,158 @@
+body {
+  background-color: hsl(175, 80%, 50%);
+}
+main {
+  margin: 1em 20%;
+}
+section {
+  background-color: white;
+  padding: 1em;
+}
+h1, #description {
+  text-align: center;
+}
+
+input, textarea, button, select {
+  box-sizing: border-box;
+}
+#required-widget p {
+  position: relative;
+  /* display: flex;
+  flex-wrap: wrap; */
+
+}
+#required-widget p label {
+  position: absolute;
+  right: 50%;
+  /* width: 50%;
+  text-align: right; */
+}
+#required-widget p input, #required-widget p select {
+  margin-left: 55%;
+  width: 25%;
+  
+}
+
+#check-widget {
+  /* display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 1em 5%; */
+  padding: 1em 15%;
+} 
+
+fieldset {
+  /* height: 100%; */
+  /* display: flex;
+  flex-wrap: wrap; */
+  position: relative;
+  overflow: aoto;
+}
+#check-widget h2 {
+    position: absolute;
+    left: 2em;
+    width: 50%;
+
+}
+legend {
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    left: -10000px;
+}
+ul {
+  list-style-type: none;
+  text-align: left;
+  margin-left: 50%;
+}
+#check-widget li {
+  /* display: flex;
+  justify-content: space-between;
+  padding: 0.5em 10% */
+  padding: 0.5em 10%
+}
+/* #check-widget #enjoyment li {
+  padding: 0.5em 20%;
+} */
+/* #last {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0.5em 15%;
+} */
+#comment-widget {
+    position: relative;
+
+}
+.comment {
+  vertical-align: top;
+  position: absolute;
+  right: 50%;
+}
+#comment {
+  margin-left: 55%;
+  width: 25%;
+}
+
+#submit-button {
+  text-align: center;
+  
+}
+
+button {
+  background-color: hsl(175, 80%, 50%);
+  border-radius: 5px;
+  font-size: 1em;
+  padding: 0.5em;
+  cursor: pointer;
+  margin: auto;
+}
+button:hover {
+  background-color: yellow;
+}
+
+@media (max-width: 950px) {
+    main {
+        margin: 1em 5%;
+    }
+    #required-widget p label {
+        position: absolute;
+        top: 0;
+        left: 5%;
+    }
+    #required-widget p input, #required-widget p select {
+        margin-left: 5%;
+        margin-top: 3em;
+        width: 50%;
+    
+    }
+    #check-widget h2 {
+        position: absolute;
+        left: 2em;
+        width: 90%;
+    
+    }
+    ul {
+        margin-left: 0;
+        margin-top: 8em;
+    }
+    .comment {
+        left: 5%;
+        top: 0;
+    }
+    #comment {
+        margin-left: 5%;
+        width: 80%;
+        margin-top: 3em;
+    }
+    #check-widget {
+        padding: 1em 10%;
+    } 
+}
+@media (max-width: 1200px) {
+    #check-widget {
+        padding: 1em 5%;
+    } 
+}

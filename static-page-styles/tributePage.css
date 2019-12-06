@@ -1,0 +1,30 @@
+#main {
+    width: 100%;
+    font-size: 1em;
+    text-align: center;
+    background-color: hsl(172, 64%, 50%);
+}
+article {
+    width: 80%;
+    margin: 0;
+    padding: 5em 10%;
+}
+article ul li{
+    text-align: left;
+    margin: 1em;
+}
+article, main section {
+    background-color: hsl(172, 40%, 50%);
+}
+#image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+}
+#title {
+    font-size: 3em;
+}
+article p {
+    margin-top: 3em;
+}
