@@ -1,5 +1,11 @@
 .App {
   text-align: center;
+  /* background-color: rgb(200, 222, 222); */
+}
+
+html {
+  width: 100%;
+  /* overflow-x: hidden; */
 }
 
 .App-logo {
@@ -22,39 +28,96 @@
 } */
 
 
-header {
+#wrapper-header {
   position: fixed;
+  left: 15px;
+  right: 15px;
   z-index: 2;
-  background-color: orange;
-  width: 100%;
+  background-color: rgb(255, 189, 76);
+  color: black;
+  font-size: 2em;
+  
+  /* margin-left: -15px; */
+  
 }
 
-header #navbar ul a {
+#wrapper-header #navbar ul a {
   text-decoration: none;
   color: black;
 
   display: inline-block;
   width: 100%
 }
-header #navbar ul a:hover, header #navbar ul a:focus {
-  background-color: yellow;
+#wrapper-header #navbar ul a:hover, header #navbar ul a:focus {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: black;
 }
-header ul {
+#wrapper-header ul {
   margin-bottom: 0;
+  padding-left: 0;
+}
+/* #wrapper-header #navbar ul {
+  margin-left: -15px;
+} */
+
+
+#card {
+  margin-top: 5em;
+  padding-bottom: 1em;
+  text-align: left;
+  background-color: white;
+  border: 0.2em solid black;
+  border-radius: 1.5em;
+}
+#card header {
+  text-align: center;
+}
+#card #myself {
+  max-height: 100%;
+}
+#card article {
+  height: 16em;
+}
+#card article p {
+  background-color: rgba(0, 0, 0, 0.1);
+  height: 16em;
 }
 
-main #welcome-section {
+#welcome-section {
   width: 100%;
   height: 100vh;
-
-  background-color: #C6C6C6;
+  
+  background-color: rgb(200, 222, 222);
   padding-top: 40vh;
 }
 
-#projects {
-  margin-top: 2em;
-  margin-bottom: 2em;
+#welcome-section h1 {
+  font-size: 6em;
+  animation-name: comeon;
+  animation-duration: 4s;
 }
+@keyframes comeon {
+  0% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+main .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+#projects {
+  margin-top: 5em;
+  
+  margin-bottom: 0;
+  padding: 1em;
+  background-color: rgb(200, 222, 222);
+}
+
 #projects a {
   text-decoration: none;
   color: black;
@@ -62,30 +125,34 @@ main #welcome-section {
 
 }
 #projects a:hover, #project a:focus {
-  background-color: gray;
-  box-shadow: 3px 3px 3px rgba(255,255,255,0.3), inset 3px 3px 3px rgba(255,255,255,0.3);
+  background-color: rgba(0, 0, 0, 0.1);
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1), inset 3px 3px 3px rgba(0, 0, 0, 0.1);
 
 }
 
 #projects #my-works {
-  margin-left: 0;
+
   margin-bottom: 2em;
 }
 
 #contact, footer {
-  background-color: black;
-  color: white;
+  background-color: rgb(255, 189, 76);
+  color: black;
+
 }
 #contact a {
-  color: white;
+  color: black;
 }
 
 ul {
   list-style: none;
 }
 
-
+#show {
+  background-color: yellow;
+}
 
 .hidden {
   display: none;
 }
+
