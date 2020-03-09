@@ -10,6 +10,7 @@ import drum from './drum-machine.PNG';
 import markdowmPreviewer from './markdown-previewer.PNG';
 import pomodoro from './pomodoro-clock.PNG';
 import randomQuote from './random-quote.PNG';
+import cashRegister from './cash-register.PNG';
 import myPhoto from './my-photo.jpg';
 
 /* import JavascriptCalculator from './javascript-calculator.js';
@@ -91,12 +92,13 @@ class MainContent extends React.Component {
         <section id="projects">
           <h2>我的作品</h2>
           <div id="my-works" className="row">
-            <a href="./tributePage.html" target="_blank" className={CONTENT_LAYOUT}>
+            <a href="https://gmuggle.github.io/cash-register" target="_blank" rel="noopener noreferrer" className={CONTENT_LAYOUT}>
               <figure className="project-tile">
-                <img className="img-resposive" src={tribute} alt="" />
-                <figcaption>Tribute page</figcaption>
+                <img className="img-resposive" src={cashRegister} alt=""/>
+                <figcaption>A web cash register</figcaption>
               </figure>
             </a>
+            
             <a href="./survey.html" target="_blank" className={CONTENT_LAYOUT}>
               <figure className="project-tile">
                 <img className="img-resposive" src={survey} alt=""/>
@@ -144,6 +146,12 @@ class MainContent extends React.Component {
               <figure>
                 <img className="img-resposive" src={randomQuote} alt=""/>
                 <figcaption>A random quote machine</figcaption>
+              </figure>
+            </a>
+            <a href="./tributePage.html" target="_blank" className={"more-works hidden " + CONTENT_LAYOUT}>
+              <figure>
+                <img className="img-resposive" src={tribute} alt="" />
+                <figcaption>Tribute page</figcaption>
               </figure>
             </a>
           </div>
