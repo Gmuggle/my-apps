@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fcbd5812b5f65a08966509ce9db53e23",
+    "revision": "b7bd7a1cde12f087c442a5b77387b121",
     "url": "/my-apps/index.html"
   },
   {
-    "revision": "198944703fdecbb01bd1",
+    "revision": "64958abdb2915b034bfd",
     "url": "/my-apps/static/css/2.9b33c5fc.chunk.css"
   },
   {
-    "revision": "2acf65fafa941755e410",
+    "revision": "16128f84940f16578935",
     "url": "/my-apps/static/css/main.7d7af77e.chunk.css"
   },
   {
-    "revision": "198944703fdecbb01bd1",
-    "url": "/my-apps/static/js/2.f1d37598.chunk.js"
+    "revision": "64958abdb2915b034bfd",
+    "url": "/my-apps/static/js/2.da427c44.chunk.js"
   },
   {
-    "revision": "2acf65fafa941755e410",
-    "url": "/my-apps/static/js/main.002d1291.chunk.js"
+    "revision": "16128f84940f16578935",
+    "url": "/my-apps/static/js/main.6e7cb9e5.chunk.js"
   },
   {
     "revision": "64b69538b4aa9ad99026",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c739867e3d9030bf027f6854785d00f7",
     "url": "/my-apps/static/media/calculator.c739867e.PNG"
+  },
+  {
+    "revision": "45c37af74ab4a74dc2d38ca84b53f3f7",
+    "url": "/my-apps/static/media/cash-register.45c37af7.PNG"
   },
   {
     "revision": "2cfdb9259a49ffd6c4d8dc716374fb8c",
